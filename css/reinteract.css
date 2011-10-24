@@ -1,0 +1,117 @@
+@import url("syntax.css");
+
+.clear {
+    clear: both;
+}
+
+body {
+    max-width: 60em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    margin-top: 0.75em;
+    margin-bottom: 0.5em;
+}
+
+p {
+    margin-top: 0.25em;
+}
+
+a {
+    color: #880000;
+}
+
+h2 a {
+    color: black;
+}
+
+a:visited {
+    color: #444444;
+}
+
+.screenshot {
+    float: right;
+    margin-left: 1em;
+}
+
+.highlight {
+    padding: 0.5em;
+    background: #ffffdf;
+    border: 1px solid gray;
+    margin-bottom: 1em;
+}
+
+.highlight pre {
+    margin: 0em;
+}
+
+.navigation-section {
+    border-bottom: 1px solid #444444;
+    margin-bottom: 1em;
+}
+
+.navigation-header {
+    float: right;
+    padding-top: 0.5em;
+}
+
+.navigation {
+    display: inline;
+    /*
+   -moz-box-shadow: inset 0em 0em 0.2em #444444;
+   -webkit-box-shadow: inset 0em 0em 0.2em #444444;
+   box-shadow: 0em 0em 0.2em #444444;
+   */
+   padding: 0.25em;
+   border: 1px solid black;
+   background: #ffffdf;
+
+   background-image: -moz-linear-gradient(top, #ffffff 0%, #e8e8e8 100%);
+   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ffffff), color-stop(1, #e8e8e8));
+   background-image: linear-gradient(top, #ffffff 0%, #e8e8e8 100%);
+}
+
+.navigation li {
+    display: inline;
+    border-left: 1px solid #aaaaaa;
+    margin: 0px;
+    padding: 0.25em;
+}
+
+.navigation li.active {
+    font-weight: bold;
+}
+
+.navigation a {
+    text-decoration: None;
+    color: black;
+}
+
+.navigation a:visited {
+    color: black;
+}
+
+.navigation li:first-child {
+    border-left: none;
+}
+
+.addon {
+    clear: both;
+    margin-bottom: 0.5em;
+}
+
+.addon a.name {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.addon .author {
+    font-style: italic;
+}
+
+.addon img {
+    float: right;
+    padding-bottom: 1em;
+}

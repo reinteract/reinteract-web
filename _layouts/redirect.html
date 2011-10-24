@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+              "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
+    <meta http-equiv="refresh" content="0; url={{page.target}}" />
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/css/reinteract.css" type="text/css"/>
+    <link rel="icon" href="/images/reinteract.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="/images/reinteract.ico" type="image/x-icon" />
+  </head>
+  {% include header.html %}
+  <body>
+    {% include header.html %}
+    Please see <a href="{{page.target}}">{{ page.target_name }}</a>.
+    {{ content }}
+  </body>
+</html>
