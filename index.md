@@ -20,6 +20,7 @@ There is a [Reinteract Google Group](http://groups.google.com/group/reinteract) 
 
 News
 ----
-29 Oct 2011 - [Reinteract 0.5.9 released](http://groups.google.com/group/reinteract/browse_thread/thread/e2b0d88a5829aa31)
-26 Mar 2009 - [Reinteract 0.5.0 released](http://blog.fishsoup.net/2009/03/26/reinteract-0-5-0/)
+* 29 Oct 2011 - [Reinteract 0.5.9 released](http://groups.google.com/group/reinteract/browse_thread/thread/e2b0d88a5829aa31)
+* 26 Mar 2009 - [Reinteract 0.5.0 released](http://blog.fishsoup.net/2009/03/26/reinteract-0-5-0/)
+{:.news-list}
 

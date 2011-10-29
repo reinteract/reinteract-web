@@ -97,6 +97,16 @@ a:visited {
     border-left: none;
 }
 
+.news-list {
+    list-style: none;
+    padding-left: 0em;
+}
+
+.news-list li {
+    margin-left: 0em;
+    padding-left: 0em;
+}
+
 .addon {
     clear: both;
     margin-bottom: 0.5em;
