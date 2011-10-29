@@ -12,24 +12,13 @@ We use [bugzilla.gnome.org](http://bugzilla.gnome.org/browse.cgi?product=reinter
 Source code
 -----------
 
-Reinteract development is managed using git, a very popular SCM.  The following links can help you get started using git.
+Reinteract development is managed using git. For information about checking out the code from the master repository, see the [Download Page](/download.html#Source)
 
- * [Official Git Documentation](http://git-scm.com/documentation)
- * [Zacks Git Cheat Sheet](http://zrusin.blogspot.com/2007/09/git-cheat-sheet.html)
- * [Every Day Git](http://www.kernel.org/pub/software/scm/git/docs/everyday.html) is a practical guide and a quick way to get going
- * This [Gnome mailing list message](http://mail.gnome.org/archives/gnome-shell-list/2009-February/msg00010.html)  has some good Git links and hints for new git users.
+The following links can help you get started using git.
 
-Repositories:
-
-  * Owen's Primary Repository
-   * Git Repo:  git://git.fishsoup.net/reinteract.git
-   * Web Interface: <http://git.fishsoup.net/cgit/reinteract/>
-  * Robert Schroll's Bug Fixing Repo
-   * Git Repo: git://github.com/rschroll/reinteract.git
-   * Web Interface: <http://github.com/rschroll/reinteract>
-  * Other Repos
-   * git://github.com/jbaayen/reinteract.git
-
+ * The git web site has lots of [documentation](http://git-scm.com/documentation) and links, including the official git tutorial.
+ * [Git Tips](https://live.gnome.org/Git/Tips) from the GNOME Website. See in particular the section on git-bz, which is a convenient tool for using Git to submit patches to bugzilla.
+ * If you want to publish your own Reinteract Git repository, [github](http://www.github.com) can be a convenient place to do that.
 
 Design Notes
 ------------

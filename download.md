@@ -26,8 +26,7 @@ Requires Python 2.6 or newer. On OS X 10.4 (Tiger) and 10.5 (Leopard) , you'll n
 
 Reinteract is available through the package repositories for Fedora and other major Linux distributions. It's also very easy to get the latest version of Reinteract from source control.
 
-Source
-------
+<h2><a id="Source">Source</a></h2>
 
 The software can be obtained via the Git source control system as:
 
