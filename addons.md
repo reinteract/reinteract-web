@@ -28,7 +28,7 @@ Available Add-ons
 </div>
 
 <div class="addon">
-  <a class="name" href="http://rschroll.github.com/revis/">Sympy+Reinteract</a>
+  <a class="name" href="http://jbaayen.blogspot.com/2009/09/part-of-what-makes-sympy-so-useful-is.html">Sympy+Reinteract</a>
   <span class="description" markdown="1">
     Symbolic Math view in Reinteract.
   </span>
