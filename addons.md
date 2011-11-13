@@ -10,29 +10,66 @@ Available Add-ons
 -----------------
 
 <div class="addon">
+  <h3><a class="name" href="http://rschroll.github.com/refigure2/">refigure2</a></h3>
   <img src="/addon-images/refigure2.png" />
-  <a class="name" href="http://rschroll.github.com/refigure2/">refigure2</a>
-  <span class="description" markdown="1">
+<div class="codegroup">
+{% highlight python %}from refigure2 import *{% endhighlight %}
+{% highlight python %}from numpy import *{% endhighlight %}
+&nbsp;
+{% highlight python %}t = arange(0.0, 2.0, 0.01){% endhighlight %}
+{% highlight python %}s = sin(2*pi*t){% endhighlight %}
+&nbsp;
+{% highlight python %}
+build figure():
+    plot(t, s, linewidth=1.0)
+    xlabel('time (s)')
+    ylabel('voltage (mV)')
+    title('A simple plot')
+    grid(True)
+{% endhighlight %}
+</div>
+  <div class="description">
     Embed a matplotlib figure, using functions from pylab.
-  </span>
-  <span class="author">By Robert Schroll</span>
+  </div>
+  <div class="support">Supports Printing and Sidebars</div>
+  <div class="author">By Robert Schroll</div>
 </div>
 
 <div class="addon">
+  <h3><a class="name" href="http://rschroll.github.com/revis/">revis</a></h3>
   <img src="/addon-images/revis.png" />
-  <a class="name" href="http://rschroll.github.com/revis/">revis</a>
-  <span class="description" markdown="1">
-    Embed a [visvis](http://code.google.com/p/visvis/) figure. Visvis is a pure Python plotting library using OpenGL, allowing for fast 3D visualization.
-  </span>
-  <span class="author">By Robert Schroll</span>
+<div class="codegroup">
+{% highlight python %}from revis import *{% endhighlight %}
+&nbsp;
+{% highlight python %}
+build figure():
+    a = gca()
+    a.bgcolor = 'k'
+    a.axis.axisColor = 'w'
+    
+    mesh = solidTeapot((32,32,80),
+               scaling=(50,50,50))
+    mesh.faceColor = 0.4, 1, 0.4
+    mesh.specular = 'r'
+    
+    ax.axis.xLabel = 'x-axis'
+    ax.axis.yLabel = 'y-axis'
+    ax.axis.zLabel = 'z-axis'
+{% endhighlight %}
+</div>
+  <div class="description">
+    Embed a <a href="http://code.google.com/p/visvis/">visvis</a> figure. Visvis is a pure Python plotting library using OpenGL, allowing for fast 3D visualization.
+  </div>
+  <div class="support">Supports Printing and Sidebars</div>
+  <div class="author">By Robert Schroll</div>
 </div>
 
 <div class="addon">
-  <a class="name" href="http://jbaayen.blogspot.com/2009/09/part-of-what-makes-sympy-so-useful-is.html">Sympy+Reinteract</a>
-  <span class="description" markdown="1">
+  <h3><a class="name" href="http://jbaayen.blogspot.com/2009/09/part-of-what-makes-sympy-so-useful-is.html">Sympy+Reinteract</a></h3>
+  <div class="description">
     Symbolic Math view in Reinteract.
-  </span>
-  <span class="author">By Jorn Baayen</span>
+  </div>
+  <div class="author">By Jorn Baayen</div>
 </div>
 
 
@@ -42,25 +79,25 @@ Older Add-ons
 -------------
 
 <div class="addon">
-  <a class="name" href="http://taschenorakel.de/mathias/2007/11/11/playing-reinteract/">reimage</a>
-  <span class="description" markdown="1">
+  <h3><a class="name" href="http://taschenorakel.de/mathias/2007/11/11/playing-reinteract/">reimage</a></h3>
+  <div class="description">
     paint images, GDK pixbuffs, GTK widgets and PIL images
-  </span>
-  <span class="author">By Mathias Hasselmann</span>
+  </div>
+  <div class="author">By Mathias Hasselmann</div>
 </div>
 
 <div class="addon">
-  <a class="name" href="http://code.google.com/p/xprext/">rere</a>
-  <span class="description" markdown="1">
+  <h3><a class="name" href="http://code.google.com/p/xprext/">rere</a></h3>
+  <div class="description">
     Highlight regular expression matches
-  </span>
-  <span class="author">By Tero Jäntti</span>
+  </div>
+  <div class="author">By Tero Jäntti</div>
 </div>
 
 <div class="addon">
-  <a class="name" href="http://base-art.net/Articles/92/">repgm</a>
-  <span class="description" markdown="1">
-    Integrate a [Pigment](https://code.fluendo.com/pigment/trac) canvas inside Reinteract
-  </span>
-  <span class="author">By Philippe Normand</span>
+  <h3><a class="name" href="http://base-art.net/Articles/92/">repgm</a></h3>
+  <div class="description">
+    Integrate a <a href="https://code.fluendo.com/pigment/trac">Pigment</a> canvas inside Reinteract
+  </div>
+  <div class="author">By Philippe Normand</div>
 </div>
