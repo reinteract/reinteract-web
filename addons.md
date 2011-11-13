@@ -4,7 +4,7 @@ title: Add-ons - Reinteract
 page: addons
 ---
 
-Reinteract extensions are python modules that must provide a subclass of reinteract.custom_result.CustomResult, and implement a create_widget() method. This method must return a pygtk widget, that will be displayed in the Reinteract shell.
+Reinteract extensions are simply python modules.  You may install them anywhere Reinteract can find them, but we recommend putting them in ``~/.reinteract/modules/``.  For details on how to create your own add-ons, check out the [tutorial](/tutorial/creating-add-ons.html).
 
 Available Add-ons
 -----------------
