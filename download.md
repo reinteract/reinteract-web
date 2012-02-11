@@ -6,7 +6,7 @@ page: download
 
 <h2><a id="Windows">Windows</a></h2>
 
-[Reinteract installer for Python 2.7](http://www.reinteract.org/download/windows/Reinteract-0.5.9-python2.7.msi). (16MB download, 50MB installed.)
+[Reinteract installer for Python 2.7](http://www.reinteract.org/download/windows/Reinteract-0.5.10-python2.7.msi). (16MB download, 50MB installed.)
 
 Requires [Python 2.7 distribution](http://www.python.org/ftp/python/2.7.2/python-2.7.2.msi) from [python.org](http://python.org/download/).
 
