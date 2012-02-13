@@ -15,6 +15,7 @@ Tutorial
 * [Introduction](/tutorial/introduction.html) How to get started with Reinteract
 * [Plotting](/tutorial/plotting.html) Using replot to plot data
 * [How Reinteract Works](/tutorial/how-it-works.html)
+* [Creating Add-ons](/tutorial/creating-add-ons.html)
 
 
 Other Resources

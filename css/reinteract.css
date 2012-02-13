@@ -31,20 +31,107 @@ a:visited {
     color: #444444;
 }
 
+pre, code, tt {
+    font-family: monospace, serif; /* Avoid smaller fonts */
+}
+
+code {
+    font-size: 85%;
+}
+
+pre code {
+    font-size: 100%;
+}
+
 .screenshot {
     float: right;
     margin-left: 1em;
 }
 
-.highlight {
-    padding: 0.5em;
-    background: #ffffdf;
-    border: 1px solid gray;
+.codegroup, .highlight {
+    padding: 0.5em !important;
+    border: 1px dotted gray;
     margin-bottom: 1em;
+    font-size: 85%;
+}
+
+.codegroup .highlight {
+    border: none;
+    font-size: 100%
 }
 
 .highlight pre {
-    margin: 0em;
+    margin: 0;
+}
+
+.codegroup div {
+    margin: 0em !important;
+    padding: 0em !important;
+}
+
+.highlight {
+    position: relative;
+}
+
+.codegroup pre {
+    margin: 2px 0 2px 1ex; /* Margins collapse */
+    padding: 0 0 0 4px;
+}
+
+.codegroup .highlight pre:before{
+    position: absolute;
+    left: 0;
+    top: -1px;
+    width: 1ex;
+    height: 100%;
+    content: "";
+    background: #0000ff;
+    border: 1px solid #000080;
+}
+
+.codegroup .edited .highlight pre:before {
+    background: #ffff00;
+    border-color: #808000;
+}
+
+.codegroup .old .highlight pre:before {
+    background: #ff00ff;
+    border-color: #800080;
+}
+
+.codegroup .error .highlight pre:before {
+    background: #ff0000;
+    border-color: #800000;
+}
+
+.codegroup .running .highlight pre:before {
+    background: #00ff00;
+    border-color: #008000;
+}
+
+.codegroup .comment .highlight pre:before {
+    background: none;
+    border: none;
+}
+
+.errorhighlight .highlight {
+    background: #ffddaa;
+}
+
+.codegroup .output {
+    font-style: italic;
+}
+
+.codegroup .output.old {
+    color: #888888;
+}
+
+.codegroup .output.error {
+    color: #aa0000;
+}
+
+.codegroup .output.warning {
+    color: #aa8800;
 }
 
 .navigation-section {
@@ -112,8 +199,11 @@ a:visited {
     margin-bottom: 0.5em;
 }
 
+.addon h3 {
+    margin-bottom: 0.25em;
+}
+
 .addon a.name {
-    font-weight: bold;
     text-decoration: none;
 }
 
@@ -124,4 +214,16 @@ a:visited {
 .addon img {
     float: right;
     padding-bottom: 1em;
+}
+
+.addon div {
+    display: block;
+    margin: 0.5em 0;
+    padding-left: 1em;
+}
+
+.addon .codegroup {
+    float: right;
+    width: 40ex;
+    margin: 0 1em;
 }
